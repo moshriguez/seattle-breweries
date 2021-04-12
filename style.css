@@ -19,7 +19,19 @@ body {
 
 }
 
+/* Age Verification - turned off for now w/ 'display: none' */
 
+#greyout {
+    display: none;
+    position: absolute;
+    height: 107%;
+    width: 100%;
+    background: rgb(0, 0, 0, .75);
+}
+
+#age-check {
+
+}
 
 header {
     background-color: #54A33C   ;
