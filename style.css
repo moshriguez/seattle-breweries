@@ -1,0 +1,148 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 103%;
+    /* background-color: #58da41;
+    background-image: linear-gradient(30deg, #58da41 0%, #12BA06 15%, #54A33C 100%); */
+    margin: 0;
+}
+
+body {
+    background-image: url("https://images0.westend61.de/0001342738pw/close-up-of-beer-in-glass-EYF01000.jpg");
+    background-color: #58da41;
+
+}
+
+
+
+header {
+    background-color: #54A33C   ;
+    background-image: linear-gradient(to top, #346826 0%, #0d8f04 53%);
+    width: 100%;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black; 
+}
+
+#beer-icon, #beer-mirror-icon {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    height: 70px;
+}
+
+#beer-mirror-icon {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+#beer-icon {
+    left: 0;
+}
+
+h1, h1 + p, form {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1 + p {
+    font-style: italic;
+    margin-top: 0;
+    color: rgb(43, 43, 43);
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    padding: 0.25em 0.5em;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+  }
+
+  .select {
+    max-width: fit-content;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    margin: 0 auto;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #58da41   ;
+    background-image: linear-gradient(to top, #54A33C 0%, #58da41 63%);
+  }
+
+#loaded-brewery {
+    display: none;
+    text-align: center;
+    margin: 1.5em auto;  
+    padding: .5em;
+    max-width: 500px;
+    background-color: rgba(88, 218, 65, 0.443);
+	backdrop-filter: blur(10px); /* Applies a blur effect to background */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    max-width: 75%;
+    max-height: 280px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: crimson;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    #beer-icon, #beer-mirror-icon {
+        height: 60px;
+    }
+}
+
+@media (max-width: 440px) {
+    #beer-icon, #beer-mirror-icon {
+        height: 55px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    select {
+        font-size: .9em;
+    }
+}

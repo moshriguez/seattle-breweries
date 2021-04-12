@@ -1,0 +1,624 @@
+{
+    "breweries": [
+        {
+            "id": "1",
+            "name": "Aslan Brewing",
+            "address": "401 N 36th St, Seattle, WA 98103",
+            "website_url": "http://www.aslanseattle.com",
+            "food": "Some food onsite, plus bring in from nearby restaurants.",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://images.squarespace-cdn.com/content/v1/53e15485e4b068f76d2b172e/1570058028501-JNRBMHRAG1G5MZALVDBD/ke17ZwdGBToddI8pDm48kGd26xkI_15oitAaptozzO4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdKaFUv8QnuTMMkpSWaJY0lfknpGy0O45yPRGO_bBYxQGWaW51eXEiMtb6cDo1tJc/ASLAN%2BSeattle%2BLogo%2BWhite-01.jpg?format=750w"
+        },
+        {
+            "id": "2",
+            "name": "Bad Jimmy's Brewing",
+            "address": "4358 Leary Way NW, Seattle, WA, 98107, US",
+            "website_url": "https://badjimmysbrewery.com/",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/533fe1d1e4b0889aa7ac2ca4/t/5c6d9dce1905f420a3f2fbc7/1617487764200/?format=1500w"
+        },
+        {
+            "id": "3",
+            "name": "Best of Hands Brewery & Barrelhouse",
+            "address": "7500 35th Ave SW Seattle, WA 98126",
+            "website_url": "https://www.bestofhandsbarrelhouse.com/",
+            "food": "No kitchen. Occasional food trucks.",
+            "kids": "No",
+            "dogs": "Outside Only",
+            "logo": "https://static.wixstatic.com/media/7c42ab_0a6f950480394bbc81ee1d7bada02423~mv2_d_1500_1501_s_2.png/v1/crop/x_0,y_1,w_1500,h_1500/fill/w_166,h_166,al_c,q_85,usm_0.66_1.00_0.01/BHB-logos-mb2-mstd.webp"
+        },
+        {
+            "id": "4",
+            "name": "Big Time Brewing",
+            "address": "4133 University Way NE, Seattle, WA, 98105, US",
+            "website_url": "http://www.bigtimebrewery.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "Outside Only",
+            "logo": "http://bigtimebrewery.com/img/logoHeader.png"
+        },
+        {
+            "id": "5",
+            "name": "Brother Barrel",
+            "address": "12535 Lake City Way NE, Seattle, WA 98125",
+            "website_url": "https://www.brotherbarrel.com/",
+            "food": "Full kitchen. Emphasis on Belgian-style dishes.",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "http://brotherbarrel.com/wp-content/uploads/2017/05/BB_logo-300x207.png"
+        },
+        {
+            "id": "6",
+            "name": "Burke-Gilman Brewing",
+            "address": "3626 NE 45th St #102, Seattle, WA 98105",
+            "website_url": "https://www.burkegilmanbrewing.com/",
+            "food": "No kitchen. Order from local restaurants. Mexican food truck in lot to north.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://burkegilmanbrewing.square.site/uploads/b/d9fd03e0-6aea-11ea-b93c-ed7d035ac9b3/BG_TrainLogo_BadgeOnly_Black.png"
+        },
+        {
+            "id": "7",
+            "name": "Cloudburst Brewing",
+            "address": "5456 Shilshole Ave NW Seattle, WA 98121\n",
+            "website_url": "http://www.cloudburstbrew.com",
+            "food": "Their own food truck onsite\n",
+            "kids": "No",
+            "dogs": "Yes",
+            "logo": "https://craftpeak-cooler-images.imgix.net/cloudburst-brewing/logomark-color-small.png?auto=compress%2Cformat&ixlib=php-1.2.1"
+        },
+        {
+            "id": "8",
+            "name": "Cloudburst Brewing",
+            "address": "2116 Western Ave, Seattle, WA, 98121",
+            "website_url": "http://www.cloudburstbrew.com",
+            "food": "No Kitchen",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://craftpeak-cooler-images.imgix.net/cloudburst-brewing/logomark-color-small.png?auto=compress%2Cformat&ixlib=php-1.2.1"
+        },
+        {
+            "id": "9",
+            "name": "Counterbalance Brewing",
+            "address": "503 S Michigan St, Seattle, WA, 98108",
+            "website_url": "http://counterbalancebeer.com/",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "http://counterbalancebeer.com/wp-content/uploads/2019/03/CBB_Logo_DuckName_Horizontal_2color.png"
+        },
+        {
+            "id": "10",
+            "name": "Dirty Couch Brewing",
+            "address": "2715 W Fort St, Seattle, WA 98199",
+            "website_url": "http://dirtycouchbrewing.com/",
+            "food": "No kitchen. Occasional food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://images.squarespace-cdn.com/content/v1/57b4c580893fc0995a2eb3b8/1585237697170-6KB8FG4EGYJSBEJQQ5H1/ke17ZwdGBToddI8pDm48kK_97XZKSFfaqITFlElAJv1Zw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7esRAHmdXdveR1--lCDQNB66pXCTmmaALaR2FOEbPBpHLbZ-EhQgIDoqeYYN4bUIdQ/Logo+Copy.png?format=300w"
+        },
+        {
+            "id": "11",
+            "name": "Elliott Bay Brewery and Pub",
+            "address": "4720 California Avenue SW, Seattle, WA, 98116, US",
+            "website_url": "http://www.elliottbaybrewing.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "Outside Only",
+            "logo": "https://www.elliottbaybrewing.com/wp-content/themes/elliottbay/img/logo.png"
+        },
+        {
+            "id": "12",
+            "name": "Elliott Bay Public House & Brewery",
+            "address": "12537 Lake City Way NE, Seattle, WA, 98125, US",
+            "website_url": "http://www.elliottbaybrewing.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "Outside Only",
+            "logo": "https://www.elliottbaybrewing.com/wp-content/themes/elliottbay/img/logo.png"
+        },
+        {
+            "id": "13",
+            "name": "Elysian Brewery & Public House",
+            "address": "1221 East Pike Street, Seattle, WA, 98122, US",
+            "website_url": "http://www.elysianbrewing.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "Outside Only",
+            "logo": "https://i.pinimg.com/originals/f5/22/1e/f5221eb194916fcbe074214aa829e864.png"
+        },
+        {
+            "id": "14",
+            "name": "Elysian Brewing (Georgetown location)",
+            "address": "5510 Airport Way S, Seattle, Washington, US",
+            "website_url": "http://www.elysianbrewing.com",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://i.pinimg.com/originals/f5/22/1e/f5221eb194916fcbe074214aa829e864.png"
+        },
+        {
+            "id": "15",
+            "name": "Fair Isle Brewing",
+            "address": "936 NW 49th St, Seattle, WA 98107",
+            "website_url": "https://www.fairislebrewing.com/",
+            "food": "No Kitchen",
+            "kids": "No",
+            "dogs": "Outdoors Only",
+            "logo": "https://static1.squarespace.com/static/5835ceb915d5db57b1923755/t/58463911d1758ef55d7bc60b/1617506876824/?format=1500w"
+        },
+        {
+            "id": "16",
+            "name": "Figurehead Brewing",
+            "address": "4001 21st Ave W, Seattle, WA 98199",
+            "website_url": "http://www.figureheadbrewingcompany.com/",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static.wixstatic.com/media/b2ff14_dc80a48d5e5549f8a9d997a4376b8245.png/v1/fill/w_479,h_569,al_c,lg_1,q_95/b2ff14_dc80a48d5e5549f8a9d997a4376b8245.webp"
+        },
+        {
+            "id": "17",
+            "name": "Floating Bridge Brewing",
+            "address": "722 NE 45th St, Seattle, WA 98105",
+            "website_url": "http://www.floatingbridgebrewing.com/",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://lh3.googleusercontent.com/VcftKTm2RSUbTmp0W5PLcM8JwFGq8QgSFomWmDn-6nPucILm-89GQVGEC7JREPUKlz-4kN1DurM1SJAyUAebFNAvyx4v6A=s750"
+        },
+        {
+            "id": "18",
+            "name": "Flying Bike Cooperative Brewery",
+            "address": "8570 Greenwood Ave N, Seattle, WA, 98103, US",
+            "website_url": "https://flyingbike.coop/",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://flyingbike.coop/wp-content/uploads/2016/07/FBCB-Logo-No-Needle-single-color-2-01.png"
+        },
+        {
+            "id": "19",
+            "name": "Flying Lion Brewing",
+            "address": "5041 Rainier Ave S, Seattle, WA, 98118, US",
+            "website_url": "http://www.flyinglionbrewing.com",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://flyinglionbrewing.com/img/logo-white.png"
+        },
+        {
+            "id": "20",
+            "name": "Fremont Brewing Company",
+            "address": "3409 Woodland Park Ave N, Seattle, WA, 98103, US",
+            "website_url": "http://www.fremontbrewing.com",
+            "food": "No Kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/5fc167f58ef7301f8b143e09/t/603d47cf3d06494e3afeed1f/1618022656828/?format=1500w"
+        },
+        {
+            "id": "21",
+            "name": "Future Primitive Brewing",
+            "address": "9832 14th Ave SW, Seattle, Washington 98106",
+            "website_url": "https://www.futureprimitivebeer.com/",
+            "food": "No kitchen. Frequent pop-ups and food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://untappd.akamaized.net/site/brewery_logos_hd/brewery-415188_654d0_hd.jpeg"
+        },
+        {
+            "id": "22",
+            "name": "Georgetown Brewing",
+            "address": "5200 Denver Ave S, Seattle, WA, 98108, US",
+            "website_url": "http://www.georgetownbeer.com",
+            "food": "No Kitchen",
+            "kids": "Yes, until 6PM",
+            "dogs": "No",
+            "logo": "https://www.georgetownbeer.com/resources/app/images/g-flame-logo_x2.png"
+        },
+        {
+            "id": "23",
+            "name": "Ghostfish Brewing",
+            "address": "2942 1st Avenue South, Seattle, WA, 98134",
+            "website_url": "http://ghostfishbrewing.com/",
+            "food": "Full kitchen",
+            "kids": "Yes, until 6PM",
+            "dogs": "No",
+            "logo": "https://utfb-images.untappd.com/JCHHSoVeUttHgGbxQrXmxEh1?auto=compress"
+        },
+        {
+            "id": "24",
+            "name": "Great Notion Brewing",
+            "address": "5101 14th Avenue NW, Seattle",
+            "website_url": "https://greatnotion.com/",
+            "food": "No, but coming soon",
+            "kids": "No",
+            "dogs": "Yes, until they open the kitchen",
+            "logo": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2016/02/25095832/Great-Notion-Brewing-logo.jpg"
+        },
+        {
+            "id": "25",
+            "name": "Great Notion Brewing",
+            "address": "6235 Airport Way S Suite 102, Seattle, WA 98108",
+            "website_url": "https://greatnotion.com/",
+            "food": "No kitchen",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2016/02/25095832/Great-Notion-Brewing-logo.jpg"
+        },
+        {
+            "id": "26",
+            "name": "Hale's Ales",
+            "address": "4301 Leary Way NW, Seattle, WA, 98107, US",
+            "website_url": "http://www.halesbrewery.com",
+            "food": "Full Kitchen",
+            "kids": "Yes (21+ bar area plus all-ages restaurant)",
+            "dogs": "No",
+            "logo": "http://www.halesbrewery.com/images/patch_hales_logo.png?crc=3896330159"
+        },
+        {
+            "id": "27",
+            "name": "Hellbent Brewing",
+            "address": "13035 Lake City Way NE, Seattle, WA, 98125",
+            "website_url": "http://www.hellbentbrewingcompany.com",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "No",
+            "dogs": "Yes",
+            "logo": "http://www.hellbentbrewingcompany.com/wp-content/uploads/2019/11/hb_logo_grayscale.jpg"
+        },
+        {
+            "id": "28",
+            "name": "Holy Mountain Brewing",
+            "address": "1421 Elliott Ave W, Seattle, WA 98119",
+            "website_url": "http://www.holymountainbrewing.com",
+            "food": "No kitchen",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://togo.holymountainbrewing.com/uploads/b/be69ea68216d93bbbc65f87460d2cfac3d66f701106c7d0ebbb78f77fb6525ed/HMB_thick_outlines_1586025001.png"
+        },
+        {
+            "id": "29",
+            "name": "Jellyfish Brewing",
+            "address": "917 S Nebraska St, Seattle, WA 98108",
+            "website_url": "http://jellyfishbrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "http://jellyfishbrewing.com/wp-content/uploads/2016/09/final.png"
+        },
+        {
+            "id": "30",
+            "name": "Lagunitas Seattle Taproom and Beer Sanctuary",
+            "address": "1550 NW 49th St, Seattle, WA, 98107, US",
+            "website_url": "http://www.lagunitas.com",
+            "food": "On Site food truck",
+            "kids": "No",
+            "dogs": "Yes",
+            "logo": "http://www.lagunitas.com/assets/img/logo-with-splat.png"
+        },
+        {
+            "id": "31",
+            "name": "Lantern Brewing",
+            "address": "938 N 95th St, Seattle, WA, 98103",
+            "website_url": "http://lanternbrewing.com",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/547cea0ce4b0f0cb22956857/t/54b2d7fde4b0425d528ce883/1617919161660/?format=1500w"
+        },
+        {
+            "id": "32",
+            "name": "Lowercase Brewing",
+            "address": "6233 Airport Way S, Seattle, WA 98108",
+            "website_url": "http://www.lowercasebrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/5387ca20e4b0b80086b34d06/t/5c781cb0ee6eb00bfc27e529/1617659070460/?format=1500w"
+        },
+        {
+            "id": "33",
+            "name": "Lucky Envelope Brewing",
+            "address": "907 NW 50th St, Seattle, WA, 98107",
+            "website_url": "http://www.luckyenvelopebrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://www.luckyenvelopebrewing.com/wp-content/uploads/2017/03/lucky_envelope_brewing_logo.png"
+        },
+        {
+            "id": "34",
+            "name": "Machine House Brewing",
+            "address": "5840 Airport Way South #121, Seattle, WA, 98108, US",
+            "website_url": "http://www.machinehousebrewery.com",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://www.machinehousebrewery.com/wp-content/themes/machine-house-brewery/images/machine-house-brewery-circle-logo.png"
+        },
+        {
+            "id": "35",
+            "name": "Magnuson Cafe and Brewery",
+            "address": "7801 62nd Ave NE, Seattle, WA 98115",
+            "website_url": "https://magnusonbrewery.com/",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "http://washingtonbeerblog.com/wp-content/uploads/2018/05/magnuson-cafe-brewery-feat-1.jpg"
+        },
+        {
+            "id": "36",
+            "name": "Maritime Pacific Brewing",
+            "address": "1111 NW Ballard Way, Seattle, WA, 98107, US",
+            "website_url": "https://www.maritimebrewery.com/",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://www.maritimebrewery.com/image/120191780.gif"
+        },
+        {
+            "id": "37",
+            "name": "McMenamins Queen Anne Hill",
+            "address": "200 Roy Street, Seattle, WA, 98109, US",
+            "website_url": "http://www.mcmenamins.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://www.mcmenamins.com/images/logo.png"
+        },
+        {
+            "id": "38",
+            "name": "NW Peaks Brewery",
+            "address": "5718 Rainier Avenue South, Seattle, WA, 98118, US",
+            "website_url": "http://www.nwpeaksbrewery.com",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://nwpeaksbrewery.com/wp-content/uploads/2020/03/NW-Peaks-Circle-Badge-White-BG.png"
+        },
+        {
+            "id": "39",
+            "name": "Obec Brewing",
+            "address": "1144 NW 52nd St, Seattle, WA 98107",
+            "website_url": "https://www.obecbrewing.com/",
+            "food": "No kitchen",
+            "kids": "No",
+            "dogs": "Yes",
+            "logo": "https://www.obecbrewing.com/wp-content/uploads/2020/10/facebook-obec.png"
+        },
+        {
+            "id": "40",
+            "name": "Old Stove Brewing",
+            "address": "1901 Western Ave, Seattle, WA 98101",
+            "website_url": "http://oldstove.com/",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://static.wixstatic.com/media/256e5b_2b22ce3f34174be1a1bef6e371159bb3~mv2.png/v1/fill/w_388,h_110,al_c,q_85,usm_0.66_1.00_0.01/OldStove_HLogo-White.webp"
+        },
+        {
+            "id": "41",
+            "name": "Optimism Brewing",
+            "address": "1158 Broadway, Seattle, WA, 98122",
+            "website_url": "http://optimismbrewing.com",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/55d3b8f3e4b0ee67516b878a/t/55d3bc04e4b0232c1e50be7f/1617991987496/?format=1500w"
+        },
+        {
+            "id": "42",
+            "name": "Outer Planet Brewing",
+            "address": "1812 12th Ave, Seattle, WA, 98122",
+            "website_url": "http://www.outerplanetbrewing.com",
+            "food": "Pizza. Outside food welcome.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://www.outerplanetbrewing.com/uploads/b/f9bfe220-67aa-11ea-b568-7104fd968e5e/opb-logo-no-seattle.png?width=400"
+        },
+        {
+            "id": "43",
+            "name": "Outlander Brewery & Pub",
+            "address": "225 N 36th St, Seattle, WA, 98103, US",
+            "website_url": "http://outlanderbrewing.com/",
+            "food": "Full kitchen",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://pbs.twimg.com/profile_images/1624547507/logo-outlander_400x400.jpg"
+        },
+        {
+            "id": "44",
+            "name": "Peddler Brewing",
+            "address": "1514 NW Leary Way, Seattle, WA, 98107, US",
+            "website_url": "http://www.peddlerbrewing.com/",
+            "food": "No kitchen. Occasional food trucks and sandwich shop next door.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static.wixstatic.com/media/bafe5c_1caa5d7ebcba48dfb743efa1ccedc23a~mv2.png/v1/fill/w_160,h_144,al_c,q_85,usm_0.66_1.00_0.01/bafe5c_1caa5d7ebcba48dfb743efa1ccedc23a~mv2.webp"
+        },
+        {
+            "id": "45",
+            "name": "Perihelion Brewing",
+            "address": "2800 16th Ave S, Seattle, WA, 98144",
+            "website_url": "http://www.perihelion.beer/",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://perihelionbeer.square.site/uploads/b/4f1d3420-6af8-11ea-8bd4-8dd2dd84b33b/PerihelionBrewery-logo-dk.png"
+        },
+        {
+            "id": "46",
+            "name": "Pike Pub and Brewery",
+            "address": "1415 First Avenue, Seattle, WA, 98101, US",
+            "website_url": "http://www.pikebrewing.com",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://static1.squarespace.com/static/58a21eec4402433b61d2ecc7/t/5d23c0f19df4a8000193692b/1614651293193/?format=1500w"
+        },
+        {
+            "id": "47",
+            "name": "Ravenna Brewing",
+            "address": "5408 26th Ave NE, Seattle, WA, 98105",
+            "website_url": "http://www.ravennabrewing.com/",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://d2pxm94gkd1wuq.cloudfront.net/BreweryLogos/Standard/404710223.ravennabrewingcompany.jpg"
+        },
+        {
+            "id": "48",
+            "name": "Redhook Brewlab",
+            "address": "714 E Pike St, Seattle, WA 98122",
+            "website_url": "http://redhook.com/breweries-pubs/capitol-hill",
+            "food": "Full kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://redhook.com/assets/images/redhook_logo.svg"
+        },
+        {
+            "id": "49",
+            "name": "Reuben's Brews",
+            "address": "5010 14th Ave NW, Seattle, WA, 98107, US",
+            "website_url": "http://www.reubensbrews.com/",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://reubensbrews.com/wp-content/uploads/2019/09/circle_lockup_texture.svg"
+        },
+        {
+            "id": "50",
+            "name": "Rooftop Brewing",
+            "address": "1220 W Nickerson St, Seattle, WA, 98119, US",
+            "website_url": "http://rooftopbrewco.com",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/51381991e4b08ef26b557e31/t/5e714c82f838cf3105a12870/1584483459796/RooftopLogo_white.png?format=1500w"
+        },
+        {
+            "id": "51",
+            "name": "Seapine Brewing",
+            "address": "2959 Utah Ave S, Seattle, WA, 98134",
+            "website_url": "http://seapinebrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static1.squarespace.com/static/5f95a158a64ef331695c9643/t/5f95a1a2bd21e77cb11fb74d/1615817617580/?format=1500w"
+        },
+        {
+            "id": "52",
+            "name": "Seattle-Lite Brewing Taproom",
+            "address": "8520 14th Ave S, Seattle, WA 98108",
+            "website_url": "https://www.seattle-lite.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static.wixstatic.com/media/92a36f_4331792db61548ab93674cd7f0a76765~mv2.png/v1/fill/w_256,h_160,al_c,q_85,usm_0.66_1.00_0.01/Caps-for-logo%20(1).webp"
+        },
+        {
+            "id": "53",
+            "name": "Snapshot Brewing",
+            "address": "8005 Greenwood Ave N, Seattle, WA 98103",
+            "website_url": "https://www.snapshotbrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://static.wixstatic.com/media/c7c9b8_d9bb1be0284d4df0bc5d2c6e1967a93e~mv2.png/v1/fill/w_750,h_750,al_c,q_90/Brewery%20Logo-final%20final_inside_small_pn.webp"
+        },
+        {
+            "id": "54",
+            "name": "Sovereign Brewimg",
+            "address": "851 Rainier Ave. S, Seattle, WA 98144",
+            "website_url": "https://www.sovereignbeer.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://i.pinimg.com/474x/93/48/1b/93481b790c54c4392c8079edd2d3a324.jpg"
+        },
+        {
+            "id": "55",
+            "name": "Standard Brewing",
+            "address": "2504 South Jackson Street, Seattle, WA, 98144, US",
+            "website_url": "http://standardbrew.com",
+            "food": "Full kitchen",
+            "kids": "No",
+            "dogs": "No",
+            "logo": "https://lh3.googleusercontent.com/6uOfPnOqryax7lgYreUjJEdSOVuSennjp5ZwsUaazMSvlK9XZna0QNbgjSapkLXQqcQIQLn9Z_yh8-MU-dKvlDOi2Y0ZNA=s750"
+        },
+        {
+            "id": "56",
+            "name": "Stoup Brewing",
+            "address": "1108 NW 52nd St, Seattle, WA, 98107",
+            "website_url": "http://www.stoupbrewing.com",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://www.stoupbrewing.com/img/stoup-logo-on-transparent-118w.png"
+        },
+        {
+            "id": "57",
+            "name": "The Good Society Brewery",
+            "address": "2701 California Ave SW, Seattle, WA 98126",
+            "website_url": "https://www.goodsocietybeer.com/",
+            "food": "Full kitchen (limited menu)",
+            "kids": "Yes",
+            "dogs": "Outside Only",
+            "logo": "https://www.goodsocietybeer.com/wp-content/uploads/2020/02/Stacked-Insignia-w-Ol-Gold-Shadow-600x450-1.png"
+        },
+        {
+            "id": "58",
+            "name": "Tin Dog Brewing",
+            "address": "309 S Cloverdale St, Seattle, WA, 98108",
+            "website_url": "http://tindogbrewing.com/",
+            "food": "No kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://i0.wp.com/tindogbrewing.com/wp-content/uploads/2014/12/TinDog_web.png?zoom=2&fit=227%2C200&ssl=1"
+        },
+        {
+            "id": "59",
+            "name": "Two Beers Brewing Company",
+            "address": "4700 Ohio Ave S, Seattle, WA, 98134, US",
+            "website_url": "http://www.twobeersbrewery.com",
+            "food": "Full kitchen onsite from Bread & Circuses.",
+            "kids": "No",
+            "dogs": "Yes",
+            "logo": "http://www.twobeersbrewery.com/twobeersbrewing/wp-content/uploads/2020/04/TBBC-Logo-White-2-300x203.png"
+        },
+        {
+            "id": "60",
+            "name": "Urban Family Brewing",
+            "address": "1103 NW 52nd. St, Seattle, WA 98107",
+            "website_url": "https://www.urbanfamilybrewing.com/",
+            "food": "No kitchen. Frequent food trucks.",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "http://www.urbanfamilybrewing.com/wp-content/uploads/2019/02/Stacked-header.png"
+        },
+        {
+            "id": "61",
+            "name": "West Seattle Brewing",
+            "address": "4415 Fauntleroy Way SW, Seattle, WA 98126",
+            "website_url": "http://westseattlebrewing.com",
+            "food": "Limited-menu kitchen",
+            "kids": "Yes",
+            "dogs": "No",
+            "logo": "https://westseattlebrewing.com//img/wsbc-logo.png"
+        },
+        {
+            "id": "62",
+            "name": "West Seattle Brewing Tapshack",
+            "address": "2600 Marine Ave SW, Seattle, WA 98116",
+            "website_url": "http://westseattlebrewing.com",
+            "food": "Pizza kitchen",
+            "kids": "Yes",
+            "dogs": "Yes",
+            "logo": "https://westseattlebrewing.com//img/wsbc-logo.png"
+        }
+    ]
+}

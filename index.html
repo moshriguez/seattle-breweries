@@ -3,19 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Breweries of Seattle</title>
-  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Select an Article</h1>
-    <form>
-        <select id='dropdown'>
-            <option value="">--Please choose an article--</option>
-            <!-- Option tags will be populated by the JS from the JSON -->
-        </select>
-    </form>
-    <div id='loaded-article'>
+    <header>
+        <img src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xOS41IDkuNWMtLjUxNCAwLTEuMDE2LS4wNzgtMS41LS4yMTZ2OC43MTZjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTF2LTguMzYzYy0uNjM2LjIyOS0xLjMwOC4zNjMtMiAuMzYzcy0xLjM2NC0uMTM0LTItLjM2M3Y4LjM2M2MwIC41NTItLjQ0NyAxLTEgMXMtMS0uNDQ4LTEtMXYtOC43MTZjLS40ODQuMTM4LS45ODYuMjE2LTEuNS4yMTYtLjgxMyAwLTEuNTgzLS4xODItMi4yNzgtLjVoLTIuMjIyYy0xLjY1NCAwLTMgMS4zNDYtMyAzdjVjMCAxLjY1NCAxLjM0NiAzIDMgM2gyYzAgMi4yMDkgMS43OTEgNCA0IDRoOGMyLjIwOSAwIDQtMS43OTEgNC00di0xMWgtLjIyMmMtLjY5NS4zMTgtMS40NjUuNS0yLjI3OC41em0tMTMuNSA4LjVoLTJjLS41NTIgMC0xLS40NDktMS0xdi01YzAtLjU1MS40NDgtMSAxLTFoMnptMi41LTEwLjVjLjk0IDAgMS43OS0uMzc1IDIuNDE4LS45NzkuNzM0Ljg5NiAxLjgzNCAxLjQ3OSAzLjA4MiAxLjQ3OXMyLjM0OC0uNTgzIDMuMDgyLTEuNDc5Yy42MjguNjA0IDEuNDc4Ljk3OSAyLjQxOC45NzkgMS45MzMgMCAzLjUtMS41NjcgMy41LTMuNXMtMS41NjctMy41LTMuNS0zLjVjLS45NCAwLTEuNzkuMzc1LTIuNDE4Ljk3OS0uNzM0LS44OTYtMS44MzQtMS40NzktMy4wODItMS40NzlzLTIuMzQ4LjU4My0zLjA4MiAxLjQ3OWMtLjYyOC0uNjA0LTEuNDc4LS45NzktMi40MTgtLjk3OS0xLjkzMyAwLTMuNSAxLjU2Ny0zLjUgMy41czEuNTY3IDMuNSAzLjUgMy41eiIvPjwvc3ZnPg==" alt="beer-icon" id="beer-icon">
+        <img src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0xOS41IDkuNWMtLjUxNCAwLTEuMDE2LS4wNzgtMS41LS4yMTZ2OC43MTZjMCAuNTUyLS40NDcgMS0xIDFzLTEtLjQ0OC0xLTF2LTguMzYzYy0uNjM2LjIyOS0xLjMwOC4zNjMtMiAuMzYzcy0xLjM2NC0uMTM0LTItLjM2M3Y4LjM2M2MwIC41NTItLjQ0NyAxLTEgMXMtMS0uNDQ4LTEtMXYtOC43MTZjLS40ODQuMTM4LS45ODYuMjE2LTEuNS4yMTYtLjgxMyAwLTEuNTgzLS4xODItMi4yNzgtLjVoLTIuMjIyYy0xLjY1NCAwLTMgMS4zNDYtMyAzdjVjMCAxLjY1NCAxLjM0NiAzIDMgM2gyYzAgMi4yMDkgMS43OTEgNCA0IDRoOGMyLjIwOSAwIDQtMS43OTEgNC00di0xMWgtLjIyMmMtLjY5NS4zMTgtMS40NjUuNS0yLjI3OC41em0tMTMuNSA4LjVoLTJjLS41NTIgMC0xLS40NDktMS0xdi01YzAtLjU1MS40NDgtMSAxLTFoMnptMi41LTEwLjVjLjk0IDAgMS43OS0uMzc1IDIuNDE4LS45NzkuNzM0Ljg5NiAxLjgzNCAxLjQ3OSAzLjA4MiAxLjQ3OXMyLjM0OC0uNTgzIDMuMDgyLTEuNDc5Yy42MjguNjA0IDEuNDc4Ljk3OSAyLjQxOC45NzkgMS45MzMgMCAzLjUtMS41NjcgMy41LTMuNXMtMS41NjctMy41LTMuNS0zLjVjLS45NCAwLTEuNzkuMzc1LTIuNDE4Ljk3OS0uNzM0LS44OTYtMS44MzQtMS40NzktMy4wODItMS40NzlzLTIuMzQ4LjU4My0zLjA4MiAxLjQ3OWMtLjYyOC0uNjA0LTEuNDc4LS45NzktMi40MTgtLjk3OS0xLjkzMyAwLTMuNSAxLjU2Ny0zLjUgMy41czEuNTY3IDMuNSAzLjUgMy41eiIvPjwvc3ZnPg==" alt="beer-mirror-icon" id="beer-mirror-icon">
+        <h1>Breweries of Seattle</h1>
+        <p>Explore the breweries of the Emerald City.</p>
+        <form>
+            <div class="select">
+                <select id='dropdown'>
+                    <option value="hide">--Select a Brewery--</option>
+                    <!-- Option tags will be populated by the JS from the JSON -->
+                </select>
+            </div>
+        </form>
+    </header>
+    <div id='loaded-brewery'>
+        <img src="" alt="">
         <h2></h2>
-        <p></p>
+        <p id="address"></p>
+        <a href=""></a>
+        <p id="food"></p>
+        <p id="kids"></p>
+        <p id="dogs"></p>
     </div>
 
     
