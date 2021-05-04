@@ -12,11 +12,11 @@ dropdown.addEventListener('input', function(event) {
     }
 });
 
-fetch(`http://localhost:3000/breweries`)
+fetch(`https://moshriguez.github.io/seattle-breweries/db.json`)
     .then(function(response){return response.json();})
     .then(function(json) {
-        //console.log(json)
-        for (const item of json) {
+        // console.log(json.breweries)
+        for (const item of json.breweries) {
             const option = document.createElement('option')
             option.value = item.id
             option.textContent = item.name
@@ -25,10 +25,12 @@ fetch(`http://localhost:3000/breweries`)
     })
 
 function updateArticle() {
-    fetch(`http://localhost:3000/breweries/${id}`)
+    // fetch(`http://localhost:3000/breweries/${id}`)
+    fetch(`https://moshriguez.github.io/seattle-breweries/db.json`)
     .then(function(response){return response.json();})
     .then(function(json) {
-        console.log(json)
+        const breweryData = json.breweries[id]
+        console.log(breweryData)
         const container = document.querySelector('#loaded-brewery')
         const img = document.querySelector('#loaded-brewery img')
         const h2 = document.querySelector('#loaded-brewery h2');
@@ -38,15 +40,15 @@ function updateArticle() {
         const kids = document.querySelector('#kids');
         const dogs = document.querySelector('#dogs');
         container.style.display = 'block'  
-        img.src = json.logo;
-        img.alt = `${json.name} logo`
-        h2.textContent = json.name;
-        address.innerHTML = `Address: <strong>${json.address}</strong>`;
-        website.href = json.website_url;
+        img.src = breweryData.logo;
+        img.alt = `${breweryData.name} logo`
+        h2.textContent = breweryData.name;
+        address.innerHTML = `Address: <strong>${breweryData.address}</strong>`;
+        website.href = breweryData.website_url;
         website.textContent = 'Visit their website';
-        food.innerHTML = `Is there food on site? <strong>${json.food}</strong>`;
-        kids.innerHTML = `Can I bring my kids? <strong>${json.kids}</strong>`;
-        dogs.innerHTML = `How about my furry friends? <strong>${json.dogs}</strong>`;
+        food.innerHTML = `Is there food on site? <strong>${breweryData.food}</strong>`;
+        kids.innerHTML = `Can I bring my kids? <strong>${breweryData.kids}</strong>`;
+        dogs.innerHTML = `How about my furry friends? <strong>${breweryData.dogs}</strong>`;
 
     });
 }
