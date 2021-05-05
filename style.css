@@ -7,7 +7,7 @@ font-family: 'Oswald', sans-serif; */
 }
 
 html, body {
-    height: 103%;
+    height: 100%;
     /* background-color: #58da41;
     background-image: linear-gradient(30deg, #58da41 0%, #12BA06 15%, #54A33C 100%); */
     margin: 0;
@@ -16,6 +16,7 @@ html, body {
 body {
     background-image: url("https://images0.westend61.de/0001342738pw/close-up-of-beer-in-glass-EYF01000.jpg");
     background-color: #58da41;
+    background-size: cover;
 
 }
 

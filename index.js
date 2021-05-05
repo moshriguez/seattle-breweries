@@ -29,7 +29,7 @@ function updateArticle() {
     fetch(`https://moshriguez.github.io/seattle-breweries/db.json`)
     .then(function(response){return response.json();})
     .then(function(json) {
-        const breweryData = json.breweries[id]
+        const breweryData = json.breweries[id - 1]
         console.log(breweryData)
         const container = document.querySelector('#loaded-brewery')
         const img = document.querySelector('#loaded-brewery img')
