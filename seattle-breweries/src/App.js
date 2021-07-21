@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './App.css';
+import BreweryCard from './components/BreweryCard';
 import Navigation from './components/Navigation'
 
 function App() {
@@ -14,9 +15,14 @@ function App() {
       })
   }, [])
 
+  const getBreweryInfo = () => {
+    return breweries.find(brewery => brewery.id === chosenBrewery)
+  }
+
   return (
     <div className="App">
       <Navigation setChosenBrewery={setChosenBrewery} chosenBrewery={chosenBrewery} breweries={breweries}/>
+      {chosenBrewery ? <BreweryCard brewery={getBreweryInfo()} /> : null}
     </div>
   );
 }
