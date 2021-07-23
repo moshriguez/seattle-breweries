@@ -10,9 +10,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-image: url("https://images0.westend61.de/0001342738pw/close-up-of-beer-in-glass-EYF01000.jpg");
+  /* background-image: url("https://images0.westend61.de/0001342738pw/close-up-of-beer-in-glass-EYF01000.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   font-size: 100%;
 }
 
@@ -27,19 +27,19 @@ header {
   justify-content: space-between;
 }
 
-#beer-icon, #beer-mirror-icon {
+.beer-icon, .beer-icon-mirror {
   position: absolute;
   top: 0;
   padding: .25em;
   height: 3em;
 }
 
-#beer-mirror-icon {
+.beer-icon-mirror {
   right: 0;
   transform: scaleX(-1);
 }
 
-#beer-icon {
+.beer-icon {
   left: 0;
 }
 
@@ -78,10 +78,17 @@ select {
 
 /*** BREWERY CARD ***/
 
+.beer-background-container {
+  background-image: url("https://images0.westend61.de/0001342738pw/close-up-of-beer-in-glass-EYF01000.jpg");
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 3em;
+  border-radius: 5%;
+}
+
 .brewery-card {
   display: flex;
   flex-direction: column;
-  margin: 1.5em auto;
   padding: .5em;
   background-color: rgba(180, 180, 180, 0.5);
 	backdrop-filter: blur(10px); /* Applies a blur effect to background */

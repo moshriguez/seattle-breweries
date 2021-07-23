@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navigation setChosenBrewery={setChosenBrewery} chosenBrewery={chosenBrewery} breweries={breweries}/>
-      {chosenBrewery ? <BreweryCard brewery={getBreweryInfo()} /> : null}
+      {parseInt(chosenBrewery, 10) !== 0 ? <BreweryCard brewery={getBreweryInfo()} /> : null}
     </div>
   );
 }
